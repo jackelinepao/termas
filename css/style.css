@@ -1,0 +1,165 @@
+
+.container
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+
+.header
+{
+	box-sizing: border-box;
+	margin: 2% 0% 0%;
+	background: #0020AC;
+
+}
+.main-menu
+{
+	margin: 8px 0px;
+}
+li
+{
+	list-style: none;
+	
+}
+.navbar-nav>li>a
+{
+	padding: 5px 10px;
+	margin: 2px;;
+	color: #fff
+}
+
+.navbar
+{
+	margin: 0px;
+}
+.misti
+{
+	width: 18%
+}
+.electresol
+{
+	width: 15%
+}
+.logos1
+{
+	width: 100%;
+	padding: 0px;
+}
+.logos2
+{
+	width: 100%;
+	padding: 0px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form
+{
+	margin-bottom: 1%;
+}
+.azul
+{height: 6px;
+	background: #0020AC;
+}
+.rojo
+{height: 6px;
+	background: #FF0000;
+}
+.morado
+{height: 6px;
+	background: #6814FF;
+}
+.anaranjado
+{height: 6px;
+	background: #FF3B00;
+	box-sizing: border-box;
+	padding: 0px;
+	padding-left: 0.5% #fff;
+}
+img
+{
+	width: 100%;
+}
+.imagenes
+{
+	margin: 20px 0px;
+}
+.imagenes .col-sm-6
+{
+	padding: 0px
+}
+.clie
+{
+	padding: 3% 2%;
+}
+.listclien
+{
+	height: 100px;
+	background: red;
+	box-sizing: border-box;
+	padding: 0px;
+}
+.texto
+{
+	float: 30px;
+}
+.titulos
+{
+	text-align: center;
+	padding: 20px 0px;
+}
+.titulos a
+{
+	text-decoration: none;
+	background: #FF3B00;
+	font-size: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	color: #fff;
+
+}
+.titulos span
+{
+	background: #FF3B00;
+	font-size: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	color: #fff;
+}
+.footer
+{
+	background: #0020AC;
+}
+iframe
+{
+	padding: 3%;
+	
+}
+.mapa{
+	text-align: center;
+}
+.texto
+{
+	padding: 0px;
+	margin-top:20px;
+	color: #fff;
+}
+.direcciones
+{
+	padding: 0px;
+}
+.direcciones li img
+{
+	
+    width: 150px;
+    padding: 2%;
+}
+
+.direcciones li
+{
+	margin: 4px;
+	padding: 0px;
+
+}
+.tarjetas
+{    height: 31px;
+    width: 88px;}
