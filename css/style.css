@@ -39,7 +39,6 @@ li
 {
 	background:  #6814FF;
 	color: black;
-	font-weight: bold;
 }
 
 
@@ -73,10 +72,9 @@ li
     color: black;
 	font-size: 16px;
     font-weight: normal;
-    text-shadow: 1px 2px #999;}
+    text-shadow: 1px 1px #999;}
 .navbar-default .navbar-nav>li>a:hover
 {
-	font-weight: bold;
 	background: #6C7F80;
 	color: #fff;
 }
@@ -102,6 +100,26 @@ li
 img
 {
 	width: 100%;
+}
+.productlink
+{
+	position: relative;
+	
+}
+.linksp
+{
+	margin: 0% 0% 11% -12% ;
+	text-align: left;
+	padding: 5%;
+}
+.linksp>a
+{
+	color: #fff;
+	font-size: 22px;
+	text-decoration: none;
+
+	
+
 }
 .imagenes
 {
@@ -148,7 +166,8 @@ img
 .animacion
 {
 
-    margin-top: 24px;
+    margin-top: 30px;
+    border: : 3px red;
 }
 .ofers
 {
@@ -157,10 +176,32 @@ img
 	font-size: 20px;
 	font-family: 'Roboto Condensed', sans-serif;
 }
+.oofertas
+{
+	height: 310px;
+}
 .footer
 {
 	background: #0020AC;
 	padding: 1% 8%;
+}
+.picture
+{
+	padding: 0px;
+}
+.word
+{
+	height: 310px;
+	background: 	 #8c8c8c;
+	padding: 4%;
+	box-sizing: border-box;
+}
+.textofertas
+{
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color:  #FF3B00;
+	
 }
 iframe
 {
@@ -241,7 +282,7 @@ button
 .sucursales
 {
 	border: 10px #FF3B00;
-	background: #ef9a48;
+	background: #ffd9b3;
 	box-sizing: border-box;
 	padding: 40px;
 	outline: 5px orange;
@@ -262,6 +303,7 @@ button
     border: 0.1px #FF3B00;
 }
 
+
 /********** CLIENTES *********/
 .content-clientes{
 	margin: 20px 10px;
@@ -272,7 +314,7 @@ button
 
 .borde1{
     border:3px solid #E9F0EB;
-    margin: 85px 35px 20px 0;
+    margin: 85px 35px 20px 50px;
 }
 .borde2{
     border:3px solid #F4F8F6;
@@ -353,6 +395,9 @@ button
 }
 
 /*****************PRODUCTOS************/
+.producto{
+	margin: 60px;
+}
 #menu-productos >.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     color:#FF8000;
     background: white;
@@ -432,8 +477,7 @@ button
 .empresa{
     color:black;
     text-align: justify;
-    padding: 50px 20px;
-
+    padding: 50px 50px;
 }
 .titulo-historia{
     background: #FF0000;
@@ -445,11 +489,12 @@ button
   background: white;
   box-shadow: 0 0 5px rgba(107, 110, 112, 0.4); 
   padding: 20px 5px;
-  margin:10px 10px;    
+  margin:10px 0;    
 }
 /***************** INFORME TECNICO *****************/
 .informe-t{
     text-align: justify;
+    margin:60px;
 }
 .informe-t img{
 	width: 350px;
