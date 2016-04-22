@@ -39,7 +39,6 @@ li
 {
 	background:  #6814FF;
 	color: black;
-	font-weight: bold;
 }
 
 
@@ -73,10 +72,9 @@ li
     color: black;
 	font-size: 16px;
     font-weight: normal;
-    text-shadow: 1px 2px #999;}
+    text-shadow: 1px 1px #999;}
 .navbar-default .navbar-nav>li>a:hover
 {
-	font-weight: bold;
 	background: #6C7F80;
 	color: #fff;
 }
@@ -102,6 +100,26 @@ li
 img
 {
 	width: 100%;
+}
+.productlink
+{
+	position: relative;
+	
+}
+.linksp
+{
+	margin: 0% 0% 11% -12% ;
+	text-align: left;
+	padding: 5%;
+}
+.linksp>a
+{
+	color: #fff;
+	font-size: 22px;
+	text-decoration: none;
+
+	
+
 }
 .imagenes
 {
@@ -148,7 +166,8 @@ img
 .animacion
 {
 
-    margin-top: 24px;
+    margin-top: 30px;
+    border: : 3px red;
 }
 .ofers
 {
@@ -157,10 +176,32 @@ img
 	font-size: 20px;
 	font-family: 'Roboto Condensed', sans-serif;
 }
+.oofertas
+{
+	height: 310px;
+}
 .footer
 {
 	background: #0020AC;
 	padding: 1% 8%;
+}
+.picture
+{
+	padding: 0px;
+}
+.word
+{
+	height: 310px;
+	background: 	 #8c8c8c;
+	padding: 4%;
+	box-sizing: border-box;
+}
+.textofertas
+{
+	font-size: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color:  #FF3B00;
+	
 }
 iframe
 {
@@ -241,7 +282,7 @@ button
 .sucursales
 {
 	border: 10px #FF3B00;
-	background: #ef9a48;
+	background: #ffd9b3;
 	box-sizing: border-box;
 	padding: 40px;
 	outline: 5px orange;
