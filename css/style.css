@@ -515,6 +515,11 @@ button
     color: #fff;
     background-color:  #002EDA;
 }
+
+descripcion-informe > .nav .nav-pills{
+    text-align: center;
+}
+
 /************* UTILIDADES *************/
 .f-size-25{
     font-size: 25px;
